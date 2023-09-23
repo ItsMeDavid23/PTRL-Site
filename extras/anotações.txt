@@ -1,0 +1,100 @@
+https://undraw.co/illustrations - imagens tops
+https://www.geeksforgeeks.org/css-tables/
+https://www.digitalocean.com/community/tutorials/how-to-style-common-form-elements-with-css
+https://getbootstrap.com/
+https://codepen.io/WaterNic10/pen/poLJGdm
+https://fontawesome.com/icons/user?s=solid&f=classic    
+https://www.youtube.com/watch?v=ZzQdVy8b8n4&ab_channel=TylerPotts
+https://www.youtube.com/watch?v=8mAITcNt710&ab_channel=freeCodeCamp.org
+PORTUGALRACINGLEAGUE@GMAIL.COM
+https://stackoverflow.com/questions/12553160/getting-visitors-country-from-their-ip
+
+terminar delete org
+arrangar o editar liga , meter o nome da liga que tou a editar
+delete noticia
+editar organizaçoes , mete duas vezes .png no nome do ficheiro 
+
+o meu site é melhor porque :
+
+tem cartas do fifa 
+da para dar like nas noticias da liga
+filtrar por seasons passadas
+
+
+
+editar temporada campo hidden a mais
+
+preview da foto na inserir noticia
+
+dizer quem emitiu a noticia
+
+pagina da LO
+
+highlights de cada piloto
+arranjar todas as bandeiras dos paises/cidades para os calendarios
+nao aceitar candidaturas sem criar pelo menos uma temporada
+sign in 1
+settings - cliente 1
+
+standings:  mudar a forma como as imagens são selecionadas , pois pode haver muitas orgs
+criar um estado para a temporada , para que quando for a criar um evento não aparecer todas as seasons antigas 
+servidor de emails para password
+pedido para mudar o username(formulário)
+valiadação 17 carateres , steam ID
+
+
+
+falar a nivel de otimizacoes , falar de ganhos ate 1000% ou 10 X por imagens otimizadas , lightshouse, codigos otimizados
+
+
+
+
+
+You can use a simple API from http://www.geoplugin.net/
+
+$xml = simplexml_load_file("http://www.geoplugin.net/xml.gp?ip=".getRealIpAddr());
+echo $xml->geoplugin_countryName ;
+
+
+echo "<pre>";
+foreach ($xml as $key => $value)
+{
+    echo $key , "= " , $value ,  " \n" ;
+}
+echo "</pre>";
+Function Used
+
+function getRealIpAddr()
+{
+    if (!empty($_SERVER['HTTP_CLIENT_IP']))   //check ip from share internet
+    {
+      $ip=$_SERVER['HTTP_CLIENT_IP'];
+    }
+    elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))   //to check ip is pass from proxy
+    {
+      $ip=$_SERVER['HTTP_X_FORWARDED_FOR'];
+    }
+    else
+    {
+      $ip=$_SERVER['REMOTE_ADDR'];
+    }
+    return $ip;
+}
+Output
+
+United States
+geoplugin_city= San Antonio
+geoplugin_region= TX
+geoplugin_areaCode= 210
+geoplugin_dmaCode= 641
+geoplugin_countryCode= US
+geoplugin_countryName= United States
+geoplugin_continentCode= NA
+geoplugin_latitude= 29.488899230957
+geoplugin_longitude= -98.398696899414
+geoplugin_regionCode= TX
+geoplugin_regionName= Texas
+geoplugin_currencyCode= USD
+geoplugin_currencySymbol= $
+geoplugin_currencyConverter= 1
+It makes you have so many options you can play around with
